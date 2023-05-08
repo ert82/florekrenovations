@@ -1,0 +1,45 @@
+/*! Place your custom styles here */
+
+/* Text logo */
+a.custom-logo {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+a.custom-logo--white {
+    color: #ffffff;
+}
+
+a.custom-logo--footer {
+    font-size: 19px !important;
+}
+
+a.custom-logo, a.custom-logo:hover {
+    text-decoration: none;
+}
+
+/* Testimonials */
+blockquote {
+    font-size: 1.38em;
+}
+
+
+/* Lighter menu */
+.menu-horizontal > li:not(:hover) > a, .menu-horizontal > li:not(:hover) > span, .menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger,
+.menu-horizontal > li:hover > a, .menu-horizontal > li:hover > span, .menu-horizontal > li:hover > .modal-instance > .modal-trigger {
+    opacity: .75;
+    font-weight: bold;
+}
+
+.menu-horizontal > li:hover > a, .menu-horizontal > li:hover > span, .menu-horizontal > li:hover > .modal-instance > .modal-trigger {
+    opacity: 1;
+}
+
+/* Smaller gaps */
+section, footer {
+    padding-top: 4.25em;
+    padding-bottom: 4.25em;
+}
